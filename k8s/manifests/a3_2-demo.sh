@@ -15,12 +15,12 @@ function pauseMsg() {
 
 echo "\nRunning A3 demo script\n"
 
-echo "${GR}Creating clusters${NC}"
-kind create cluster --name $cname --config ./cluster-config.yaml
-echo ""
+# echo "${GR}Creating clusters${NC}"
+# kind create cluster --name $cname --config ./cluster-config.yaml
+# echo ""
 
-kubectl cluster-info
-kubectl get nodes 
+# kubectl cluster-info
+# kubectl get nodes 
 
 # pauseMsg "\n${GR1}Press any key to create the deployment.${NC}"
 
